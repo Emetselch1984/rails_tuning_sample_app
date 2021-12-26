@@ -7,6 +7,14 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import fontawesome from '@fortawesome/fontawesome-free'
+import faSolid from '@fortawesome/fontawesome-free-solid'
+import faRegular from '@fortawesome/free-regular-svg-icons'
+import faBrands from '@fortawesome/free-brands-svg-icons'
+
+fontawesome.library.add(faSolid, faRegular, faBrands)
+
+fontawesome.dom.i2svg()
 
 Rails.start()
 Turbolinks.start()
