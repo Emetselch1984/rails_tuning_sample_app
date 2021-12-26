@@ -1,0 +1,2 @@
+class UserCaution < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class CautionFreeze < ApplicationRecord
+end
