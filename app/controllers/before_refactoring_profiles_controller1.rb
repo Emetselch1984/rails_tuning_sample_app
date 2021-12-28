@@ -4,7 +4,7 @@ class ProfilesController < ApplicationController
     raise Forbidden unless user_safe?
 
     @skill_categories = user_reccomend_skill_categories
-    @articles = @user.articles.preload(:tag)
+    @articles = @user.articles
   end
 
   private
